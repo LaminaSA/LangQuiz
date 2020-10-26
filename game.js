@@ -131,10 +131,50 @@ let questions = [
         choice4: 'Where are you?',
         answer: 2,
     },
+    {
+        question: "The word for red/bright is?",
+        choice1: "ẹsẹ",
+        choice2: "abo",
+        choice3: "eyin",
+        choice4: 'pupa',
+        answer: 4,
+    },
+    {
+        question: "The word for white is?",
+        choice1: "funfun",
+        choice2: "ologbo",
+        choice3: "eniyan",
+        choice4: 'okurin',
+        answer: 1,
+    },
+    {
+        question: "The word for black is?",
+        choice1: "tutu",
+        choice2: "dudu",
+        choice3: "igi",
+        choice4: 'iwe',
+        answer: 2,
+    },
+    {
+        question: "Translate: eran",
+        choice1: "flower",
+        choice2: "child",
+        choice3: "meat",
+        choice4: 'tooth',
+        answer: 3,
+    },
+    {
+        question: "Kini itumo irun?",
+        choice1: "speak",
+        choice2: "shirt",
+        choice3: "hand",
+        choice4: 'hair',
+        answer: 4,
+    },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 15
+const MAX_QUESTIONS = 20
 
 startGame = () => {
     questionCounter = 0
