@@ -23,7 +23,7 @@ let questions = [
     question: "Translate: mouth",
     choice1: "Irun",
     choice2: "Eti",
-    choice3: "Imú",
+    choice3: "Ẹnu",
     choice4: 'Oju',
     answer: 3,
 },
@@ -54,7 +54,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 20
+const MAX_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
